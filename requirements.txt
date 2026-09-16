@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 flask
 gunicorn
+=======
+flask
+gunicorn
+psycopg2-binary
+>>>>>>> 91e6945 (SQL adding)
