@@ -1215,7 +1215,7 @@
       return;
     }
     entries.sort(function(a,b){ return (b.caps||0)-(a.caps||0); });
-    entries = entries.slice(0, 15);
+    entries = entries.slice(0, 30);
     if(entries.length === 0){
       body.innerHTML = '<tr><td colspan="3" class="lb-empty">Пока пусто — будь первым в картотеке.</td></tr>';
       return;
